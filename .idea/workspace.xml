@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c734f0a3-dd71-47cc-b0c1-565c163e14f5" name="Default Changelist" comment="" />
+    <list default="true" id="c734f0a3-dd71-47cc-b0c1-565c163e14f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mysite/templates/hello_django.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/contrib/admin/templates/hello_django.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Django.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -26,26 +37,32 @@
     </option>
   </component>
   <component name="ProjectId" id="1XmfS7f3ofnQFojQwqnQ6DlwuvC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/contrib/admin/templates" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/contrib/admin/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mysite/polls" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.views">
-    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.urls">
+    <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Django" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,7 +71,70 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite/polls" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/polls/admin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite/polls" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/polls/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite/polls" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/polls/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite/polls" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/polls/urls.py" />
@@ -89,8 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.views" />
         <item itemvalue="Python.urls" />
+        <item itemvalue="Python.admin" />
+        <item itemvalue="Python.models" />
+        <item itemvalue="Python.tests" />
+        <item itemvalue="Python.views" />
       </list>
     </recent_temporary>
   </component>
@@ -112,51 +195,75 @@
       <screen x="0" y="23" width="1280" height="725" />
     </state>
     <state x="340" y="50" key="#Notifications/0.23.1280.725/-1366.244.1366.745@0.23.1280.725" timestamp="1581738876099" />
-    <state width="1122" height="224" key="GridCell.Tab.0.bottom" timestamp="1581746147303">
+    <state x="329" y="194" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581817048013">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="224" key="GridCell.Tab.0.bottom/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581746147303" />
+    <state x="329" y="194" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581817048013" />
+    <state x="309" y="23" key="#tests" timestamp="1581753867724">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state x="309" y="23" key="#tests/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581753867724" />
+    <state x="309" y="23" key="#urls" timestamp="1581753855143">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state x="309" y="23" key="#urls/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581753855143" />
+    <state x="309" y="23" key="#views" timestamp="1581753879757">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state x="309" y="23" key="#views/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581753879757" />
+    <state width="1122" height="179" key="GridCell.Tab.0.bottom" timestamp="1581819843936">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581819843936" />
+    <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1581756718581" />
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1581740930309" />
-    <state width="1122" height="224" key="GridCell.Tab.0.center" timestamp="1581746147296">
+    <state width="1122" height="179" key="GridCell.Tab.0.center" timestamp="1581819843935">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="224" key="GridCell.Tab.0.center/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581746147296" />
+    <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581819843935" />
+    <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1581756718580" />
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1581740930307" />
-    <state width="1122" height="224" key="GridCell.Tab.0.left" timestamp="1581746147295">
+    <state width="1122" height="179" key="GridCell.Tab.0.left" timestamp="1581819843934">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="224" key="GridCell.Tab.0.left/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581746147295" />
+    <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581819843934" />
+    <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1581756718579" />
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1581740930307" />
-    <state width="1122" height="224" key="GridCell.Tab.0.right" timestamp="1581746147298">
+    <state width="1122" height="179" key="GridCell.Tab.0.right" timestamp="1581819843935">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="224" key="GridCell.Tab.0.right/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581746147298" />
+    <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581819843935" />
+    <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1581756718580" />
     <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1581740930308" />
-    <state width="1122" height="224" key="GridCell.Tab.1.bottom" timestamp="1581746147307">
+    <state width="1122" height="224" key="GridCell.Tab.1.bottom" timestamp="1581756131964">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="224" key="GridCell.Tab.1.bottom/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581746147307" />
-    <state width="1122" height="224" key="GridCell.Tab.1.center" timestamp="1581746147305">
+    <state width="1122" height="224" key="GridCell.Tab.1.bottom/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581756131964" />
+    <state width="1122" height="224" key="GridCell.Tab.1.center" timestamp="1581756131963">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="224" key="GridCell.Tab.1.center/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581746147305" />
-    <state width="1122" height="224" key="GridCell.Tab.1.left" timestamp="1581746147304">
+    <state width="1122" height="224" key="GridCell.Tab.1.center/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581756131963" />
+    <state width="1122" height="224" key="GridCell.Tab.1.left" timestamp="1581756131962">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="224" key="GridCell.Tab.1.left/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581746147304" />
-    <state width="1122" height="224" key="GridCell.Tab.1.right" timestamp="1581746147307">
+    <state width="1122" height="224" key="GridCell.Tab.1.left/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581756131962" />
+    <state width="1122" height="224" key="GridCell.Tab.1.right" timestamp="1581756131963">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="224" key="GridCell.Tab.1.right/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581746147307" />
-    <state x="634" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1581745955751">
+    <state width="1122" height="224" key="GridCell.Tab.1.right/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581756131963" />
+    <state x="115" y="23" key="SettingsEditor" timestamp="1581753813528">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state x="634" y="216" key="com.intellij.ide.util.TipDialog/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581745955751" />
+    <state x="115" y="23" key="SettingsEditor/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581753813528" />
+    <state x="634" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1581752639674">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state x="634" y="216" key="com.intellij.ide.util.TipDialog/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581752639674" />
     <state x="638" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.725/-1366.244.1366.745@0.23.1280.725" timestamp="1581738786529" />
-    <state x="426" y="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581746134209">
+    <state x="426" y="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581825868301">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state x="426" y="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581746134209" />
+    <state x="426" y="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581825868301" />
     <state x="273" y="109" width="816" height="550" key="find.popup" timestamp="1581740910903">
       <screen x="0" y="23" width="1280" height="726" />
     </state>

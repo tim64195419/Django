@@ -13,9 +13,39 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+# from django.contrib import admin
+# from django.urls import path
+#
+# urlpatterns = [
+#
+#     path('admin/', admin.site.urls),
+# ]
+#
+
+#
+# from django.contrib import admin
+# from django.urls import path
+# from polls import views
+# # from django.conf.urls import url
+#
+# urlpatterns = [
+#
+#     path('admin/', admin.site.urls),
+#     # path('admin/', admin.site.urls),
+#     path('hello/', views.hello_view),
+# ]
+
 from django.contrib import admin
 from django.urls import path
+from polls.views import sayhello,hello2,hello3,hello4,add
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+
+     path('admin/', admin.site.urls),
+     path('', sayhello),
+     path('hello/', sayhello),
+     path('hello2/<str:username>/',hello2),
+     path('hello3/<str:username>/',hello3),
+     path('hello4/<str:username>/',hello4,name='hello4'),
+     path('add/<int:a>/<int:b>/',add,name="polls"),
 ]
