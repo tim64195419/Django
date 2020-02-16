@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c734f0a3-dd71-47cc-b0c1-565c163e14f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mysite/templates/hello_django.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/contrib/admin/templates/hello_django.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Django.iml" afterDir="false" />
+    <list default="true" id="c734f0a3-dd71-47cc-b0c1-565c163e14f5" name="Default Changelist" comment="learning django">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +39,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/contrib/admin/templates" />
@@ -188,7 +182,19 @@
       <option name="presentableId" value="Default" />
       <updated>1581656187184</updated>
     </task>
+    <task id="LOCAL-00001" summary="learning django">
+      <created>1581825906517</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581825906517</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="learning django" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning django" />
   </component>
   <component name="WindowStateProjectService">
     <state x="340" y="50" key="#Notifications" timestamp="1581738876099">
@@ -211,46 +217,50 @@
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state x="309" y="23" key="#views/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581753879757" />
-    <state width="1122" height="179" key="GridCell.Tab.0.bottom" timestamp="1581819843936">
+    <state x="195" y="23" key="CommitChangelistDialog2" timestamp="1581828764422">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581819843936" />
+    <state x="195" y="23" key="CommitChangelistDialog2/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581828764422" />
+    <state width="1122" height="224" key="GridCell.Tab.0.bottom" timestamp="1581831593116">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state width="1122" height="224" key="GridCell.Tab.0.bottom/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581831593116" />
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1581756718581" />
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1581740930309" />
-    <state width="1122" height="179" key="GridCell.Tab.0.center" timestamp="1581819843935">
+    <state width="1122" height="224" key="GridCell.Tab.0.center" timestamp="1581831593115">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581819843935" />
+    <state width="1122" height="224" key="GridCell.Tab.0.center/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581831593115" />
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1581756718580" />
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1581740930307" />
-    <state width="1122" height="179" key="GridCell.Tab.0.left" timestamp="1581819843934">
+    <state width="1122" height="224" key="GridCell.Tab.0.left" timestamp="1581831593114">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581819843934" />
+    <state width="1122" height="224" key="GridCell.Tab.0.left/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581831593114" />
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1581756718579" />
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1581740930307" />
-    <state width="1122" height="179" key="GridCell.Tab.0.right" timestamp="1581819843935">
+    <state width="1122" height="224" key="GridCell.Tab.0.right" timestamp="1581831593116">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581819843935" />
+    <state width="1122" height="224" key="GridCell.Tab.0.right/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581831593116" />
     <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1581756718580" />
     <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1581740930308" />
-    <state width="1122" height="224" key="GridCell.Tab.1.bottom" timestamp="1581756131964">
+    <state width="1122" height="224" key="GridCell.Tab.1.bottom" timestamp="1581831593118">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="224" key="GridCell.Tab.1.bottom/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581756131964" />
-    <state width="1122" height="224" key="GridCell.Tab.1.center" timestamp="1581756131963">
+    <state width="1122" height="224" key="GridCell.Tab.1.bottom/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581831593118" />
+    <state width="1122" height="224" key="GridCell.Tab.1.center" timestamp="1581831593117">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="224" key="GridCell.Tab.1.center/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581756131963" />
-    <state width="1122" height="224" key="GridCell.Tab.1.left" timestamp="1581756131962">
+    <state width="1122" height="224" key="GridCell.Tab.1.center/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581831593117" />
+    <state width="1122" height="224" key="GridCell.Tab.1.left" timestamp="1581831593117">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="224" key="GridCell.Tab.1.left/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581756131962" />
-    <state width="1122" height="224" key="GridCell.Tab.1.right" timestamp="1581756131963">
+    <state width="1122" height="224" key="GridCell.Tab.1.left/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581831593117" />
+    <state width="1122" height="224" key="GridCell.Tab.1.right" timestamp="1581831593118">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="224" key="GridCell.Tab.1.right/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581756131963" />
+    <state width="1122" height="224" key="GridCell.Tab.1.right/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581831593118" />
     <state x="115" y="23" key="SettingsEditor" timestamp="1581753813528">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
