@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c734f0a3-dd71-47cc-b0c1-565c163e14f5" name="Default Changelist" comment="learning django">
+      <change afterPath="$PROJECT_DIR$/mysite/polls/demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -55,7 +55,7 @@
       <recent name="$PROJECT_DIR$/mysite/polls" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.urls">
+  <component name="RunManager" selected="Python.demo">
     <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,6 +69,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/polls/admin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite/polls" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/polls/demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,34 +161,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Django" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite/polls" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/polls/views.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo" />
         <item itemvalue="Python.urls" />
         <item itemvalue="Python.admin" />
         <item itemvalue="Python.models" />
         <item itemvalue="Python.tests" />
-        <item itemvalue="Python.views" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +191,16 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="learning django" />
@@ -221,28 +231,32 @@
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state x="195" y="23" key="CommitChangelistDialog2/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581828764422" />
-    <state width="1122" height="224" key="GridCell.Tab.0.bottom" timestamp="1581831593116">
+    <state width="1122" height="179" key="GridCell.Tab.0.bottom" timestamp="1582041313686">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="224" key="GridCell.Tab.0.bottom/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581831593116" />
+    <state width="560" height="179" key="GridCell.Tab.0.bottom/0.0.1280.800/-1366.221.1366.768@0.0.1280.800" timestamp="1582019354643" />
+    <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582041313686" />
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1581756718581" />
     <state width="1122" height="179" key="GridCell.Tab.0.bottom/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1581740930309" />
-    <state width="1122" height="224" key="GridCell.Tab.0.center" timestamp="1581831593115">
+    <state width="1122" height="179" key="GridCell.Tab.0.center" timestamp="1582041313685">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="224" key="GridCell.Tab.0.center/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581831593115" />
+    <state width="560" height="179" key="GridCell.Tab.0.center/0.0.1280.800/-1366.221.1366.768@0.0.1280.800" timestamp="1582019354640" />
+    <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582041313685" />
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1581756718580" />
     <state width="1122" height="179" key="GridCell.Tab.0.center/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1581740930307" />
-    <state width="1122" height="224" key="GridCell.Tab.0.left" timestamp="1581831593114">
+    <state width="1122" height="179" key="GridCell.Tab.0.left" timestamp="1582041313685">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="224" key="GridCell.Tab.0.left/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581831593114" />
+    <state width="560" height="179" key="GridCell.Tab.0.left/0.0.1280.800/-1366.221.1366.768@0.0.1280.800" timestamp="1582019354639" />
+    <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582041313685" />
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1581756718579" />
     <state width="1122" height="179" key="GridCell.Tab.0.left/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1581740930307" />
-    <state width="1122" height="224" key="GridCell.Tab.0.right" timestamp="1581831593116">
+    <state width="1122" height="179" key="GridCell.Tab.0.right" timestamp="1582041313686">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state width="1122" height="224" key="GridCell.Tab.0.right/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581831593116" />
+    <state width="560" height="179" key="GridCell.Tab.0.right/0.0.1280.800/-1366.221.1366.768@0.0.1280.800" timestamp="1582019354642" />
+    <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1582041313686" />
     <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1581756718580" />
     <state width="1122" height="179" key="GridCell.Tab.0.right/0.23.1280.726/-1366.244.1366.745@0.23.1280.726" timestamp="1581740930308" />
     <state width="1122" height="224" key="GridCell.Tab.1.bottom" timestamp="1581831593118">
@@ -265,10 +279,11 @@
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state x="115" y="23" key="SettingsEditor/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581753813528" />
-    <state x="634" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1581752639674">
+    <state x="634" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1581999753401">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
-    <state x="634" y="216" key="com.intellij.ide.util.TipDialog/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581752639674" />
+    <state x="634" y="216" key="com.intellij.ide.util.TipDialog/0.23.1280.723/-1366.244.1366.745@0.23.1280.723" timestamp="1581999753401" />
+    <state x="634" y="216" key="com.intellij.ide.util.TipDialog/0.23.1280.724/-1366.244.1366.745@0.23.1280.724" timestamp="1581995103956" />
     <state x="638" y="217" key="com.intellij.ide.util.TipDialog/0.23.1280.725/-1366.244.1366.745@0.23.1280.725" timestamp="1581738786529" />
     <state x="426" y="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581825868301">
       <screen x="0" y="23" width="1280" height="723" />
